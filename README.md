@@ -26,13 +26,15 @@ To get started with this repository, follow the steps below:
 
 The repository is structured as follows:
 
-<!-- - `exercises/`: This folder contains a collection of exercises to practice different concepts in Backend JavaScript.
+* [0x00. ES6 Basics](./0x00-ES6_basic/)
+<!-- * [0x01. ES6 Promises](./0x01-ES6_promise/)
+* [0x02. ES6 classes](./0x02-ES6_classes/)
+* [0x03. ES6 data manipulation](./0x03-ES6_data_manipulation/)
+* [0x04. Typescript](./0x04-TypeScript/)
+* [0x05. NodeJS Basics](./0x05-Node_JS_basic/)
+* [0x06. Unittests in JS](./0x06-unittests_in_js/) -->
 
-- `examples/`: This folder contains example code snippets and projects that demonstrate various Backend JavaScript techniques.
-
-- `resources/`: This folder contains additional resources such as articles, tutorials, and documentation to supplement your learning. -->
-
-- `README.md`: This file provides an overview of the repository and instructions on how to get started.
+* `README.md`: This file provides an overview of the repository and instructions on how to get started.
 
 ## Contributing
 
