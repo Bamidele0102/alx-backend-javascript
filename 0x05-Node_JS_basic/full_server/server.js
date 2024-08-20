@@ -1,13 +1,15 @@
-import express from 'express';
+const express = require('express');
+const router = require('./routes/index');
 
 const app = express();
-const indexRouter = require('./routes/index');
-
 const port = 1245;
 
-app.listen(port);
-app.use('/', indexRouter);
-app.use('/students', indexRouter);
-app.use('/students/:major', indexRouter);
+app.use('/', router);
+app.use('/students', router);
+app.use('/students/:major', router);
 
-export default app;
+app.listen(port, () => {
+  console.log(`Listening at http://localhost:${port}`);
+});
+
+module.exports = app;
