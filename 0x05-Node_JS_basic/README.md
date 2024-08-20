@@ -628,7 +628,7 @@ If you want to add test to validate your integration, you will need to add this 
 
 Click to show/hide file contents
 
-```
+```babel
 
 {
     "presets": [["env", {"exclude": ["transform-regenerator"]}]]
